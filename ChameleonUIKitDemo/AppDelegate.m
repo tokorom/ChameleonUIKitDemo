@@ -7,19 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "ChameleonAppDelegate.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window;
+@synthesize window = window_;
+@synthesize chameleonView = chameleonView_;
 
 - (void)dealloc
 {
-    [super dealloc];
+  [super dealloc];
 }
-	
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+  // Insert code here to initialize your application
+  ChameleonAppDelegate* chameleonApp = [ChameleonAppDelegate new];
+  [self.chameleonView launchApplicationWithDelegate:chameleonApp afterDelay:1];
 }
 
 @end
