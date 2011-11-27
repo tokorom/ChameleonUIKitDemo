@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF1C71114824A1B00E585B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF1C71014824A1B00E585B6 /* Cocoa.framework */; };
+		5BF1C71B14824A1B00E585B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1C71914824A1B00E585B6 /* InfoPlist.strings */; };
+		5BF1C71D14824A1B00E585B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C71C14824A1B00E585B6 /* main.m */; };
+		5BF1C72114824A1B00E585B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1C71F14824A1B00E585B6 /* Credits.rtf */; };
+		5BF1C72414824A1B00E585B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C72314824A1B00E585B6 /* AppDelegate.m */; };
+		5BF1C72714824A1B00E585B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1C72514824A1B00E585B6 /* MainMenu.xib */; };
+		5BF1C73614824B1000E585B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF1C73514824ADC00E585B6 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF1C73414824ADC00E585B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF1C72D14824ADC00E585B6 /* UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = UIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BF1C70C14824A1B00E585B6 /* ChameleonUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChameleonUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF1C71014824A1B00E585B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BF1C71314824A1B00E585B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BF1C71414824A1B00E585B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BF1C71514824A1B00E585B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BF1C71814824A1B00E585B6 /* ChameleonUIKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChameleonUIKitDemo-Info.plist"; sourceTree = "<group>"; };
+		5BF1C71A14824A1B00E585B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BF1C71C14824A1B00E585B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BF1C71E14824A1B00E585B6 /* ChameleonUIKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChameleonUIKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5BF1C72014824A1B00E585B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BF1C72214824A1B00E585B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BF1C72314824A1B00E585B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BF1C72614824A1B00E585B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BF1C72D14824ADC00E585B6 /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = Externals/Chameleon/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF1C70914824A1B00E585B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF1C73614824B1000E585B6 /* UIKit.framework in Frameworks */,
+				5BF1C71114824A1B00E585B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF1C70114824A1B00E585B6 = {
+			isa = PBXGroup;
+			children = (
+				5BF1C72D14824ADC00E585B6 /* UIKit.xcodeproj */,
+				5BF1C71614824A1B00E585B6 /* ChameleonUIKitDemo */,
+				5BF1C70F14824A1B00E585B6 /* Frameworks */,
+				5BF1C70D14824A1B00E585B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF1C70D14824A1B00E585B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C70C14824A1B00E585B6 /* ChameleonUIKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF1C70F14824A1B00E585B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C71014824A1B00E585B6 /* Cocoa.framework */,
+				5BF1C71214824A1B00E585B6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF1C71214824A1B00E585B6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C71314824A1B00E585B6 /* AppKit.framework */,
+				5BF1C71414824A1B00E585B6 /* CoreData.framework */,
+				5BF1C71514824A1B00E585B6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BF1C71614824A1B00E585B6 /* ChameleonUIKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C72214824A1B00E585B6 /* AppDelegate.h */,
+				5BF1C72314824A1B00E585B6 /* AppDelegate.m */,
+				5BF1C72514824A1B00E585B6 /* MainMenu.xib */,
+				5BF1C71714824A1B00E585B6 /* Supporting Files */,
+			);
+			path = ChameleonUIKitDemo;
+			sourceTree = "<group>";
+		};
+		5BF1C71714824A1B00E585B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C71814824A1B00E585B6 /* ChameleonUIKitDemo-Info.plist */,
+				5BF1C71914824A1B00E585B6 /* InfoPlist.strings */,
+				5BF1C71C14824A1B00E585B6 /* main.m */,
+				5BF1C71E14824A1B00E585B6 /* ChameleonUIKitDemo-Prefix.pch */,
+				5BF1C71F14824A1B00E585B6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF1C72E14824ADC00E585B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1C73514824ADC00E585B6 /* UIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF1C70B14824A1B00E585B6 /* ChameleonUIKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF1C72A14824A1B00E585B6 /* Build configuration list for PBXNativeTarget "ChameleonUIKitDemo" */;
+			buildPhases = (
+				5BF1C70814824A1B00E585B6 /* Sources */,
+				5BF1C70914824A1B00E585B6 /* Frameworks */,
+				5BF1C70A14824A1B00E585B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonUIKitDemo;
+			productName = ChameleonUIKitDemo;
+			productReference = 5BF1C70C14824A1B00E585B6 /* ChameleonUIKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF1C70314824A1B00E585B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5BF1C70614824A1B00E585B6 /* Build configuration list for PBXProject "ChameleonUIKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BF1C70114824A1B00E585B6;
+			productRefGroup = 5BF1C70D14824A1B00E585B6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5BF1C72E14824ADC00E585B6 /* Products */;
+					ProjectRef = 5BF1C72D14824ADC00E585B6 /* UIKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5BF1C70B14824A1B00E585B6 /* ChameleonUIKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5BF1C73514824ADC00E585B6 /* UIKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UIKit.framework;
+			remoteRef = 5BF1C73414824ADC00E585B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF1C70A14824A1B00E585B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF1C71B14824A1B00E585B6 /* InfoPlist.strings in Resources */,
+				5BF1C72114824A1B00E585B6 /* Credits.rtf in Resources */,
+				5BF1C72714824A1B00E585B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF1C70814824A1B00E585B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF1C71D14824A1B00E585B6 /* main.m in Sources */,
+				5BF1C72414824A1B00E585B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BF1C71914824A1B00E585B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF1C71A14824A1B00E585B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BF1C71F14824A1B00E585B6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF1C72014824A1B00E585B6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BF1C72514824A1B00E585B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF1C72614824A1B00E585B6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF1C72814824A1B00E585B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BF1C72914824A1B00E585B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BF1C72B14824A1B00E585B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChameleonUIKitDemo/ChameleonUIKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChameleonUIKitDemo/ChameleonUIKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BF1C72C14824A1B00E585B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChameleonUIKitDemo/ChameleonUIKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "ChameleonUIKitDemo/ChameleonUIKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF1C70614824A1B00E585B6 /* Build configuration list for PBXProject "ChameleonUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF1C72814824A1B00E585B6 /* Debug */,
+				5BF1C72914824A1B00E585B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF1C72A14824A1B00E585B6 /* Build configuration list for PBXNativeTarget "ChameleonUIKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF1C72B14824A1B00E585B6 /* Debug */,
+				5BF1C72C14824A1B00E585B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF1C70314824A1B00E585B6 /* Project object */;
+}

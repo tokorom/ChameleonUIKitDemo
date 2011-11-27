@@ -1,0 +1,7 @@
+ChameleonUIKitDemo.xcodeproj/project.xcworkspace/
+ChameleonUIKitDemo.xcodeproj/xcuserdata/
+.DS_Store
+build/
+ChameleonUIKitDemo.xcodeproj/*.mode1v3
+ChameleonUIKitDemo.xcodeproj/*.pbxuser
+*.bk
