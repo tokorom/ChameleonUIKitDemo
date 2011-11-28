@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0665243514833F1B00FED887 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0665243414833F1B00FED887 /* RootViewController.m */; };
 		5BD3348E1482A70A003FA078 /* mayuge_dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BD3348D1482A70A003FA078 /* mayuge_dog.jpg */; };
 		5BF1C71114824A1B00E585B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF1C71014824A1B00E585B6 /* Cocoa.framework */; };
 		5BF1C71B14824A1B00E585B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1C71914824A1B00E585B6 /* InfoPlist.strings */; };
@@ -16,7 +17,6 @@
 		5BF1C72714824A1B00E585B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF1C72514824A1B00E585B6 /* MainMenu.xib */; };
 		5BF1C73614824B1000E585B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF1C73514824ADC00E585B6 /* UIKit.framework */; };
 		5BF1C7391482505600E585B6 /* ChameleonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C7381482505600E585B6 /* ChameleonAppDelegate.m */; };
-		5BF1C73C1482654100E585B6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1C73B1482654100E585B6 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0665243314833F1B00FED887 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0665243414833F1B00FED887 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		5BD3348D1482A70A003FA078 /* mayuge_dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mayuge_dog.jpg; sourceTree = "<group>"; };
 		5BF1C70C14824A1B00E585B6 /* ChameleonUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChameleonUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF1C71014824A1B00E585B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -47,8 +49,6 @@
 		5BF1C72D14824ADC00E585B6 /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = Externals/Chameleon/UIKit/UIKit.xcodeproj; sourceTree = "<group>"; };
 		5BF1C7371482505600E585B6 /* ChameleonAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonAppDelegate.h; sourceTree = "<group>"; };
 		5BF1C7381482505600E585B6 /* ChameleonAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonAppDelegate.m; sourceTree = "<group>"; };
-		5BF1C73A1482654100E585B6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
-		5BF1C73B1482654100E585B6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0665243214833F1B00FED887 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0665243314833F1B00FED887 /* RootViewController.h */,
+				0665243414833F1B00FED887 /* RootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5BF1C70114824A1B00E585B6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +113,7 @@
 		5BF1C71614824A1B00E585B6 /* ChameleonUIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5BF1C73D1482662700E585B6 /* Controllers */,
+				0665243214833F1B00FED887 /* Controllers */,
 				5BF1C73E1482662700E585B6 /* Resources */,
 				5BF1C7371482505600E585B6 /* ChameleonAppDelegate.h */,
 				5BF1C7381482505600E585B6 /* ChameleonAppDelegate.m */,
@@ -134,15 +143,6 @@
 				5BF1C73514824ADC00E585B6 /* UIKit.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5BF1C73D1482662700E585B6 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5BF1C73A1482654100E585B6 /* RootViewController.h */,
-				5BF1C73B1482654100E585B6 /* RootViewController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		5BF1C73E1482662700E585B6 /* Resources */ = {
@@ -244,7 +244,7 @@
 				5BF1C71D14824A1B00E585B6 /* main.m in Sources */,
 				5BF1C72414824A1B00E585B6 /* AppDelegate.m in Sources */,
 				5BF1C7391482505600E585B6 /* ChameleonAppDelegate.m in Sources */,
-				5BF1C73C1482654100E585B6 /* RootViewController.m in Sources */,
+				0665243514833F1B00FED887 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

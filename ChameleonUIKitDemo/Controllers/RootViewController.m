@@ -37,7 +37,7 @@
 }
 
 - (IBAction)buttonDidPush {
-  NSAlert* alert = [NSAlert new];
+  NSAlert* alert = [[[NSAlert alloc] init] autorelease];
   [alert setMessageText:@"わん！"];
   [alert addButtonWithTitle:@"OK"];
   [alert runModal];
