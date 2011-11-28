@@ -11,19 +11,21 @@
 
 @implementation AppDelegate
 
-@synthesize window = window_;
 @synthesize chameleonView = chameleonView_;
+@synthesize chameleonApp = chameleonApp_;
 
 - (void)dealloc
 {
+  self.chameleonView = nil;
+  self.chameleonApp = nil;
   [super dealloc];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   // Insert code here to initialize your application
-  ChameleonAppDelegate* chameleonApp = [ChameleonAppDelegate new];
-  [self.chameleonView launchApplicationWithDelegate:chameleonApp afterDelay:1];
+  self.chameleonApp = [[[ChameleonAppDelegate alloc] init] autorelease];
+  [self.chameleonView launchApplicationWithDelegate:self.chameleonApp afterDelay:1];
 }
 
 @end

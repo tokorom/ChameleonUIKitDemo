@@ -16,7 +16,7 @@
   self.view.backgroundColor = [UIColor whiteColor];
   // UIImageViewを試用
   UIImage* image = [UIImage imageNamed:@"mayuge_dog"];
-  UIImageView* imageView = [[UIImageView alloc] initWithImage:image];
+  UIImageView* imageView = [[[UIImageView alloc] initWithImage:image] autorelease];
   imageView.frame = self.view.bounds;
   imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   imageView.contentMode = UIViewContentModeScaleAspectFit;

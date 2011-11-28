@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class ChameleonAppDelegate;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow* window;
-@property (strong) IBOutlet UIKitView* chameleonView; 
+@property (retain) IBOutlet UIKitView* chameleonView; 
+@property (retain) ChameleonAppDelegate* chameleonApp; 
 
 @end

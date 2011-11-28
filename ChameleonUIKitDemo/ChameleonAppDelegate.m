@@ -13,13 +13,20 @@
 @synthesize window = window_;
 @synthesize rootViewController = rootViewController_;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (void)dealloc
 {
-  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  self.window = nil;
+  self.rootViewController = nil;
+  [super dealloc];
+}
+
+- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
+{
+  self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
   // Override point for customization after application launch.
   self.window.backgroundColor = [UIColor whiteColor];
   self.window.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-  self.rootViewController = [RootViewController new];
+  self.rootViewController = [[[RootViewController alloc] init] autorelease];
   self.rootViewController.view.frame = self.window.bounds;
   self.rootViewController.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   [self.window addSubview:self.rootViewController.view];

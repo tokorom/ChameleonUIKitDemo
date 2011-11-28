@@ -326,6 +326,7 @@
 		5BF1C72B14824A1B00E585B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChameleonUIKitDemo/ChameleonUIKitDemo-Prefix.pch";
 				INFOPLIST_FILE = "ChameleonUIKitDemo/ChameleonUIKitDemo-Info.plist";
@@ -337,6 +338,7 @@
 		5BF1C72C14824A1B00E585B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChameleonUIKitDemo/ChameleonUIKitDemo-Prefix.pch";
 				INFOPLIST_FILE = "ChameleonUIKitDemo/ChameleonUIKitDemo-Info.plist";
